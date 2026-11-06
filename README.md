@@ -23,3 +23,13 @@ The full list of what you type and what you get is in [pali-snippets-list.md](pa
 - Words that are also English words, or the start of one, would misfire in Alfred, which expands a keyword the moment it is typed. Those 30 need a `!` prefix there: `!pali` → Pāli, `!sila` → sīla, `!dana` → dāna.
 - Text Replacement only fires on whole words, so in the iOS list the same words are plain shortcuts with no `!`. Delete any you would rather keep as English (`dana`, `maya`, `papa`, …).
 - In Alfred a short keyword fires before a longer compound can be typed, so a few compounds are entered as separate words or with a hyphen: `samma ditthi` → sammā diṭṭhi. The list file has the full table of these.
+
+## Adding terms
+
+Both lists are generated from [terms.txt](terms.txt), one `category|term` per line with the diacritics in place; the ASCII keyword is derived by stripping them. Edit it, then rebuild `dist/` and the list file:
+
+```bash
+python3 gen.py
+```
+
+The exclusion tables (English clashes, unreachable compounds) live at the top of [gen.py](gen.py).

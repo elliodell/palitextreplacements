@@ -1,0 +1,518 @@
+# category | diacritic form (one per line). ASCII keyword is derived by stripping diacritics.
+# ---- doctrine ----
+doctrine|jhāna
+doctrine|saṃsāra
+doctrine|nibbāna
+doctrine|parinibbāna
+doctrine|anattā
+doctrine|aniccatā
+doctrine|dukkhatā
+doctrine|anattatā
+doctrine|sīla
+doctrine|samādhi
+doctrine|paññā
+doctrine|vipassanā
+doctrine|satipaṭṭhāna
+doctrine|ānāpānasati
+doctrine|ānāpāna
+doctrine|kāyagatāsati
+doctrine|maraṇasati
+doctrine|buddhānussati
+doctrine|dhammānussati
+doctrine|saṅghānussati
+doctrine|anupassanā
+doctrine|kāyānupassanā
+doctrine|vedanānupassanā
+doctrine|cittānupassanā
+doctrine|dhammānupassanā
+doctrine|sampajañña
+doctrine|yoniso manasikāra
+doctrine|manasikāra
+doctrine|appamāda
+doctrine|saddhā
+doctrine|vīriya
+doctrine|pīti
+doctrine|ekaggatā
+doctrine|vicāra
+doctrine|upacāra
+doctrine|appanā
+doctrine|kasiṇa
+doctrine|nīvaraṇa
+doctrine|kāmacchanda
+doctrine|vyāpāda
+doctrine|byāpāda
+doctrine|thīnamiddha
+doctrine|thīna
+doctrine|vicikicchā
+doctrine|bojjhaṅga
+doctrine|iddhipāda
+doctrine|aṭṭhaṅgika
+doctrine|sammādiṭṭhi
+doctrine|sammāsaṅkappa
+doctrine|sammāvācā
+doctrine|sammākammanta
+doctrine|sammāājīva
+doctrine|ājīva
+doctrine|sammāvāyāma
+doctrine|sammāsati
+doctrine|sammāsamādhi
+doctrine|sammā
+doctrine|diṭṭhi
+doctrine|micchādiṭṭhi
+doctrine|saṅkappa
+doctrine|vācā
+doctrine|paṭipadā
+doctrine|paṭiccasamuppāda
+doctrine|paṭicca
+doctrine|samuppāda
+doctrine|avijjā
+doctrine|saṅkhāra
+doctrine|viññāṇa
+doctrine|nāmarūpa
+doctrine|nāma
+doctrine|rūpa
+doctrine|saḷāyatana
+doctrine|āyatana
+doctrine|vedanā
+doctrine|taṇhā
+doctrine|upādāna
+doctrine|jāti
+doctrine|jarā
+doctrine|maraṇa
+doctrine|upāyāsa
+doctrine|saññā
+doctrine|khandha
+doctrine|upādānakkhandha
+doctrine|vipāka
+doctrine|kammavipāka
+doctrine|mettā
+doctrine|karuṇā
+doctrine|muditā
+doctrine|upekkhā
+doctrine|brahmavihāra
+doctrine|nibbidā
+doctrine|virāga
+doctrine|ñāṇa
+doctrine|ñāṇadassana
+doctrine|bhāvanā
+doctrine|cetanā
+doctrine|kāma
+doctrine|āsava
+doctrine|āsavakkhaya
+doctrine|saṃyojana
+doctrine|māna
+doctrine|rāga
+doctrine|puñña
+doctrine|pāpa
+doctrine|dāna
+doctrine|cāga
+doctrine|sīlabbata
+doctrine|sīlabbataparāmāsa
+doctrine|pāramī
+doctrine|pāramitā
+doctrine|adhiṭṭhāna
+doctrine|sammāsambuddha
+doctrine|sāvaka
+doctrine|sotāpanna
+doctrine|sotāpatti
+doctrine|sakadāgāmī
+doctrine|anāgāmī
+doctrine|kalyāṇamitta
+doctrine|tathāgata
+doctrine|bhikkhunī
+doctrine|saṅgha
+doctrine|sāmaṇera
+doctrine|sāmaṇerī
+doctrine|samaṇa
+doctrine|brāhmaṇa
+doctrine|upāsaka
+doctrine|upāsikā
+doctrine|dāyaka
+doctrine|ācariya
+doctrine|upajjhāya
+doctrine|therī
+doctrine|mahāthera
+doctrine|pārājika
+doctrine|pātimokkha
+doctrine|kaṭhina
+doctrine|pabbajjā
+doctrine|upasampadā
+doctrine|sāsana
+doctrine|buddhasāsana
+doctrine|paññatti
+doctrine|abhiññā
+doctrine|arūpa
+doctrine|arūpajhāna
+doctrine|rūpajhāna
+doctrine|ākāsānañcāyatana
+doctrine|viññāṇañcāyatana
+doctrine|ākiñcaññāyatana
+doctrine|nevasaññānāsaññāyatana
+doctrine|saññāvedayitanirodha
+doctrine|khaṇika
+doctrine|bhaṅga
+doctrine|saṅkhārupekkhā
+doctrine|gotrabhū
+doctrine|vuṭṭhāna
+doctrine|paccavekkhaṇa
+doctrine|kammaṭṭhāna
+doctrine|paṭisandhi
+doctrine|bhavaṅga
+doctrine|dhātu
+doctrine|nibbānadhātu
+doctrine|jivhā
+doctrine|phoṭṭhabba
+doctrine|nidāna
+doctrine|āhāra
+doctrine|paṭikkūla
+doctrine|pahāna
+doctrine|vīmaṃsā
+doctrine|tathatā
+doctrine|suññatā
+doctrine|appaṇihita
+doctrine|dhammatā
+doctrine|paṭipatti
+doctrine|paṭivedha
+doctrine|paññāvimutti
+doctrine|paññāvimutta
+doctrine|abyākata
+doctrine|avyākata
+doctrine|kalāpa
+doctrine|tiracchāna
+doctrine|cakkavāḷa
+doctrine|mahākappa
+doctrine|asaṅkheyya
+doctrine|devatā
+doctrine|nāga
+doctrine|puthujjana
+doctrine|arahā
+doctrine|sa-upādisesa
+doctrine|anupādisesa
+doctrine|lakkhaṇa
+doctrine|tilakkhaṇa
+doctrine|anattalakkhaṇa
+doctrine|nimitta
+doctrine|vimuttiñāṇadassana
+doctrine|sammāsambodhi
+doctrine|bodhisatta
+doctrine|paññāpāramī
+doctrine|yathābhūta
+doctrine|yathābhūtañāṇadassana
+doctrine|cittavisuddhi
+doctrine|sīlavisuddhi
+doctrine|kaṅkhāvitaraṇa
+doctrine|maggāmagga
+doctrine|dhammānudhamma
+doctrine|sotāpattiphala
+doctrine|anāgāmiphala
+doctrine|bhūmi
+doctrine|kāmaloka
+doctrine|rūpaloka
+doctrine|arūpaloka
+doctrine|kāmabhava
+doctrine|rūpabhava
+doctrine|arūpabhava
+doctrine|hīna
+doctrine|paṭigha
+doctrine|vitakkavicāra
+doctrine|anussati
+doctrine|upasamānussati
+doctrine|cāgānussati
+doctrine|devatānussati
+doctrine|āloka
+doctrine|ākāsa
+doctrine|pathavī
+doctrine|oḷārika
+doctrine|sukhuma
+# ---- texts ----
+texts|Nikāya
+texts|Dīgha Nikāya
+texts|Dīgha
+texts|Saṃyutta Nikāya
+texts|Saṃyutta
+texts|Aṅguttara Nikāya
+texts|Aṅguttara
+texts|Khuddaka Nikāya
+texts|Majjhima Nikāya
+texts|Tipiṭaka
+texts|piṭaka
+texts|Suttapiṭaka
+texts|Vinayapiṭaka
+texts|Abhidhammapiṭaka
+texts|Udāna
+texts|Suttanipāta
+texts|nipāta
+texts|Theragāthā
+texts|Therīgāthā
+texts|gāthā
+texts|Jātaka
+texts|Khuddakapāṭha
+texts|Vimānavatthu
+texts|Paṭisambhidāmagga
+texts|Apadāna
+texts|Buddhavaṃsa
+texts|Cariyāpiṭaka
+texts|Dhammasaṅgaṇī
+texts|Vibhaṅga
+texts|Dhātukathā
+texts|Puggalapaññatti
+texts|Kathāvatthu
+texts|Paṭṭhāna
+texts|Mahāvagga
+texts|Cūḷavagga
+texts|Parivāra
+texts|Suttavibhaṅga
+texts|Pācittiya
+texts|Saṅghādisesa
+texts|Pāṭidesanīya
+texts|aṭṭhakathā
+texts|ṭīkā
+texts|Visuddhimagga
+texts|Milindapañha
+texts|Abhidhammatthasaṅgaha
+texts|Nettippakaraṇa
+texts|Peṭakopadesa
+texts|Mahāvaṃsa
+texts|Dīpavaṃsa
+texts|Sagāthāvagga
+texts|Nidānavagga
+texts|Saḷāyatanavagga
+texts|Sīlakkhandhavagga
+texts|Pāthikavagga
+texts|Mūlapaṇṇāsa
+texts|Majjhimapaṇṇāsa
+texts|Uparipaṇṇāsa
+texts|Mahāparinibbāna Sutta
+texts|Mahāsatipaṭṭhāna Sutta
+texts|Satipaṭṭhāna Sutta
+texts|Ānāpānasati Sutta
+texts|Kāyagatāsati Sutta
+texts|Mettā Sutta
+texts|Karaṇīya Mettā Sutta
+texts|Maṅgala Sutta
+texts|Anattalakkhaṇa Sutta
+texts|Kālāma Sutta
+texts|Brahmajāla Sutta
+texts|Sāmaññaphala Sutta
+texts|Mahānidāna Sutta
+texts|Sigālovāda Sutta
+texts|Ādittapariyāya Sutta
+texts|Bāhiya Sutta
+texts|Mūlapariyāya Sutta
+texts|Sabbāsava Sutta
+texts|Sammādiṭṭhi Sutta
+texts|Vitakkasaṇṭhāna Sutta
+texts|Dvedhāvitakka Sutta
+texts|Madhupiṇḍika Sutta
+texts|Alagaddūpama Sutta
+texts|Kakacūpama Sutta
+texts|Vatthūpama Sutta
+texts|Rathavinīta Sutta
+texts|Ariyapariyesanā Sutta
+texts|Mahāhatthipadopama Sutta
+texts|Cūḷahatthipadopama Sutta
+texts|Mahāsāropama Sutta
+texts|Mahāvedalla Sutta
+texts|Cūḷavedalla Sutta
+texts|Mahātaṇhāsaṅkhaya Sutta
+texts|Mahāsaccaka Sutta
+texts|Mahārāhulovāda Sutta
+texts|Ambalaṭṭhikārāhulovāda Sutta
+texts|Cūḷamālukya Sutta
+texts|Mahāmālukya Sutta
+texts|Kīṭāgiri Sutta
+texts|Aggivacchagotta Sutta
+texts|Māgaṇḍiya Sutta
+texts|Aṅgulimāla Sutta
+texts|Raṭṭhapāla Sutta
+texts|Vāseṭṭha Sutta
+texts|Caṅkī Sutta
+texts|Dhātuvibhaṅga Sutta
+texts|Saccavibhaṅga Sutta
+texts|Cūḷakammavibhaṅga Sutta
+texts|Mahākammavibhaṅga Sutta
+texts|Saḷāyatanavibhaṅga Sutta
+texts|Mahācattārīsaka Sutta
+texts|Bahudhātuka Sutta
+texts|Indriyabhāvanā Sutta
+texts|Mahāsaḷāyatanika Sutta
+texts|Anāthapiṇḍikovāda Sutta
+texts|Dhammacakkappavattana Sutta
+texts|Mahādukkhakkhandha Sutta
+texts|Mahāsīhanāda Sutta
+texts|Cūḷasīhanāda Sutta
+texts|Bhaddekaratta Sutta
+texts|Sāleyyaka Sutta
+texts|Upāli Sutta
+texts|Jīvaka Sutta
+texts|Ratana Sutta
+texts|Āṭānāṭiya Sutta
+texts|Dhammapada
+texts|Pāli
+texts|Pāḷi
+texts|Theravāda
+texts|Mahāyāna
+texts|Vajrayāna
+texts|Mahāsaṅgīti
+texts|Sutta Nipāta
+# ---- people ----
+people|Ānanda
+people|Sāriputta
+people|Moggallāna
+people|Mahāmoggallāna
+people|Mahākassapa
+people|Mahākaccāna
+people|Kaccāna
+people|Kaccāyana
+people|Mahākoṭṭhita
+people|Mahāpajāpatī
+people|Gotamī
+people|Mahāpajāpatī Gotamī
+people|Rāhula
+people|Upāli
+people|Aṅgulimāla
+people|Visākhā
+people|Anāthapiṇḍika
+people|Jīvaka
+people|Bimbisāra
+people|Ajātasattu
+people|Sākya
+people|Mahānāma
+people|Koṇḍañña
+people|Aññākoṇḍañña
+people|Yasodharā
+people|Māyā
+people|Mahāmāyā
+people|Sujātā
+people|Āḷāra Kālāma
+people|Kālāma
+people|Uddaka Rāmaputta
+people|Rāmaputta
+people|Khemā
+people|Uppalavaṇṇā
+people|Dhammadinnā
+people|Paṭācārā
+people|Kisāgotamī
+people|Ambapālī
+people|Bhaddā Kuṇḍalakesā
+people|Subhūti
+people|Puṇṇa
+people|Bāhiya
+people|Māra
+people|Brahmā
+people|Sahampati
+people|Sīvali
+people|Vāseṭṭha
+people|Soṇa
+people|Raṭṭhapāla
+people|Bhaddiya
+people|Nāgasena
+people|Buddhaghosa
+people|Dhammapāla
+people|Ṭhānissaro
+people|Sujāto
+people|Brahmāli
+people|Anālayo
+people|Ñāṇamoli
+people|Ñāṇaponika
+people|Ñāṇavīra
+people|Ñāṇananda
+people|Buddhadāsa
+people|Mahāsi Sayādaw
+people|Mahāsi
+people|Sayādaw
+people|Jayasāro
+people|Brahmavaṃso
+people|Vīradhammo
+people|Sucitto
+people|Metteyya
+people|Dīpaṅkara
+people|Koṇāgamana
+people|Vipassī
+people|Sikhī
+people|Vessabhū
+people|Devadatta
+people|Bhagavā
+people|Mahāvīra
+people|Pasenadi
+people|Sakka
+people|Vessavaṇa
+# ---- places ----
+places|Sāvatthī
+places|Rājagaha
+places|Vesālī
+places|Kosambī
+places|Bārāṇasī
+places|Kusinārā
+places|Lumbinī
+places|Veḷuvana
+places|Gijjhakūṭa
+places|Uruvelā
+places|Nerañjarā
+places|Jambudīpa
+places|Māgadhī
+places|Laṅkā
+places|Pāvā
+places|Vajjī
+places|Licchavī
+places|Tāvatiṃsa
+places|Avīci
+places|Ābhassara
+places|Akaniṭṭha
+places|Suddhāvāsa
+places|Gayā
+places|Nāḷandā
+# ---- chanting ----
+chanting|Namo tassa bhagavato arahato sammāsambuddhassa
+chanting|sammāsambuddhassa
+chanting|saraṇa
+chanting|gacchāmi
+chanting|Buddhaṃ saraṇaṃ gacchāmi
+chanting|Dhammaṃ saraṇaṃ gacchāmi
+chanting|Saṅghaṃ saraṇaṃ gacchāmi
+chanting|pāṇātipātā
+chanting|veramaṇī
+chanting|adinnādānā
+chanting|kāmesu micchācārā
+chanting|micchācārā
+chanting|musāvādā
+chanting|surāmeraya
+chanting|sikkhāpada
+chanting|sikkhāpadaṃ samādiyāmi
+chanting|samādiyāmi
+chanting|sādhu
+chanting|anumodanā
+chanting|pūjā
+chanting|vandanā
+chanting|svākkhāto
+chanting|sandiṭṭhiko
+chanting|akāliko
+chanting|supaṭipanno
+chanting|puññakkhetta
+chanting|dakkhiṇeyya
+chanting|sabbe sattā sukhitā hontu
+chanting|sattā
+chanting|sukhitā
+chanting|Bhagavā
+chanting|arahaṃ
+chanting|sammāsambuddho
+chanting|vijjācaraṇasampanno
+chanting|lokavidū
+chanting|purisadammasārathi
+chanting|satthā devamanussānaṃ
+chanting|Buddho Bhagavā
+chanting|idaṃ me puññaṃ
+chanting|āsavakkhayāvahaṃ hotu
+chanting|nibbānassa paccayo hotu
+chanting|sabba-pāpassa akaraṇaṃ
+chanting|kusalassa upasampadā
+chanting|sacittapariyodapanaṃ
+chanting|etaṃ buddhāna sāsanaṃ
+# ---- additions ----
+doctrine|vihāra
+doctrine|vāyāma
+doctrine|micchā
+doctrine|parāmāsa
+doctrine|tisaraṇa
+chanting|Buddhaṃ
+chanting|Dhammaṃ
