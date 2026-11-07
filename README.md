@@ -33,3 +33,18 @@ python3 gen.py
 ```
 
 The exclusion tables (English clashes, unreachable compounds) live at the top of [gen.py](gen.py).
+
+## Tests
+
+Run the standard-library regression suite from the repository root:
+
+```bash
+python3 -B -m unittest discover -s tests -v
+```
+
+Tests rebuild the exports in a temporary directory, leaving your local `build/`
+and `dist/` unchanged. They check casing, Unicode normalization, duplicate
+shortcuts, English-word safeguards, and that the checked-in exports and term
+list match the generator. Alfred's randomly generated snippet IDs are ignored
+when comparing exports. No snippets are installed into Alfred or Apple Text
+Replacement.
