@@ -32,6 +32,8 @@ Both lists are generated from [terms.txt](terms.txt), one `category|term` per li
 python3 gen.py
 ```
 
+Categories are `doctrine`, `texts`, `people`, `places`, and `chanting`. Spaces around `|` are allowed. Malformed separators, unknown categories, and empty terms are reported with a line number before any existing exports are replaced.
+
 The exclusion tables (English clashes, unreachable compounds) live at the top of [gen.py](gen.py).
 
 ## Tests

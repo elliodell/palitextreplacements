@@ -44,15 +44,26 @@ UNREACHABLE = {
 # Keep, but flag: the plain keyword is in the English dictionary only because it is a Pali/Sanskrit loanword
 LOANWORDS = ['samsara','nibbana','samadhi','panna','avijja','rupa','vedana','tanha','jati','jara','sangha','brahmana','arupa','nidana','devata','naga','kamaloka','akasa','suttapitaka','gatha','apadana','mahayana','vajrayana','theravada','ananda','bimbisara','magadhi','sadhu','puja','vihara','karuna','jataka','sakya','metta','marana','sanna','punna','caga','bhumi','vesali','avici','gaya','anapana','gotami','tika','pitaka','asava','ahara','tathata','aloka','alara','sukhita']
 
+SECTION = {'doctrine':'Doctrine','texts':'Texts','people':'People & Places','places':'People & Places','chanting':'Chanting'}
 terms = collections.OrderedDict()  # keyword(lower) -> (cat, expansion)
-for line in open('terms.txt', encoding='utf-8'):
-    line=line.strip()
-    if not line or line.startswith('#'): continue
-    cat, word = line.split('|')
-    for p in re.split(r'[ \-]+', nfc(word)):
-        a = ascii_of(p)
-        if a == p: continue
-        terms.setdefault(a.lower(), (cat, p))
+# Validate every source line before replacing any previously generated exports.
+with open('terms.txt', encoding='utf-8') as source:
+    for line_number, line in enumerate(source, 1):
+        line = line.strip()
+        if not line or line.startswith('#'):
+            continue
+        if line.count('|') != 1:
+            raise ValueError(f'terms.txt:{line_number}: expected category|term')
+        cat, word = (part.strip() for part in line.split('|'))
+        if cat not in SECTION:
+            raise ValueError(f'terms.txt:{line_number}: unknown category {cat!r}')
+        if not word:
+            raise ValueError(f'terms.txt:{line_number}: term must not be empty')
+        for p in re.split(r'[ \-]+', nfc(word)):
+            a = ascii_of(p)
+            if a == p:
+                continue
+            terms.setdefault(a.lower(), (cat, p))
 BANG_EXTRA = {'maha':'mahā','cula':'cūḷa','kaya':'kāya','panca':'pañca','ghana':'ghāna'}
 bang = {}  # English-clash words, reachable with a "!" prefix
 for k in list(terms):
@@ -69,7 +80,6 @@ for k in ks:
             if not terms[l][1].lower().startswith(terms[k][1].lower()) or ascii_of(rest)!=rest:
                 print('STILL BAD', k, l)
 
-SECTION = {'doctrine':'Doctrine','texts':'Texts','people':'People & Places','places':'People & Places','chanting':'Chanting'}
 COLLECTION='Pali'
 PLIST='''<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
