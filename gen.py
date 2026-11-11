@@ -107,6 +107,8 @@ for k,(cat,exp) in terms.items():
     rows[SECTION[cat]].append((k, exp))
 BANGCOLL='! prefixed (English-word clashes)'
 d=os.path.join(build,COLLECTION)
+# A custom term list may contain no unprefixed snippets.
+os.makedirs(d, exist_ok=True)
 for k,exp in sorted(bang.items()):
     for kw,ex in [('!'+k, cap(exp) if exp[0].isupper() else exp[0].lower()+exp[1:]), ('!'+k[0].upper()+k[1:], cap(exp))]:
         uid=str(uuid.uuid4()).upper()

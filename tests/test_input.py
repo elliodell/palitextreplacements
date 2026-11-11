@@ -39,6 +39,42 @@ class InputTests(unittest.TestCase):
                 self.assertEqual(mapping["jhana"], "jhāna")
                 self.assertEqual(mapping["ananda"], "Ānanda")
 
+    def test_collection_is_created_without_plain_keywords(self):
+        fixtures = (
+            ("doctrine|dāna\n", {"dana": "dāna"}),
+            ("doctrine|metta\n", {}),
+            ("# no source terms\n\n", {}),
+        )
+        extras = {
+            "maha": "mahā", "cula": "cūḷa", "kaya": "kāya",
+            "panca": "pañca", "ghana": "ghāna",
+        }
+        for terms, source_entries in fixtures:
+            with self.subTest(terms=terms), tempfile.TemporaryDirectory() as temporary:
+                directory = Path(temporary)
+                result = self.run_generator(directory, terms)
+                self.assertEqual(result.returncode, 0, result.stderr)
+                snippets, metadata = read_alfred(directory / "dist/Pali.alfredsnippets")
+                expected = {**extras, **source_entries}
+                expected_alfred = {}
+                for keyword, expansion in expected.items():
+                    expected_alfred["!" + keyword] = expansion
+                    expected_alfred["!" + keyword.capitalize()] = expansion.capitalize()
+                self.assertEqual(len(snippets), len(expected_alfred))
+                self.assertEqual(
+                    {entry["keyword"]: entry["snippet"] for entry in snippets},
+                    expected_alfred,
+                )
+                self.assertEqual(metadata["snippetkeywordprefix"], "")
+                self.assertEqual(metadata["snippetkeywordsuffix"], "")
+                apple = read_apple(directory / "dist/Pali Text Replacements.plist")
+                self.assertEqual(len(apple), len(expected) - 1)
+                self.assertEqual(
+                    {entry["shortcut"]: entry["phrase"] for entry in apple},
+                    {key: value for key, value in expected.items() if key != "ghana"},
+                )
+                self.assertTrue((directory / "pali-snippets-list.md").is_file())
+
     def test_invalid_terms_leave_previous_outputs_untouched(self):
         invalid_lines = (
             "unknown|mettā", "doctrine jhāna", "|mettā", "doctrine|",
