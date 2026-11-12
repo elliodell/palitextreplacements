@@ -78,7 +78,8 @@ class InputTests(unittest.TestCase):
     def test_invalid_terms_leave_previous_outputs_untouched(self):
         invalid_lines = (
             "unknown|mettā", "doctrine jhāna", "|mettā", "doctrine|",
-            "doctrine|mettā|extra",
+            "doctrine|mettā|extra", "doctrine|mettā/karuṇā",
+            "doctrine|mettā\\karuṇā",
         )
         for line in invalid_lines:
             with self.subTest(line=line), tempfile.TemporaryDirectory() as temporary:

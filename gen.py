@@ -59,6 +59,8 @@ with open('terms.txt', encoding='utf-8') as source:
             raise ValueError(f'terms.txt:{line_number}: unknown category {cat!r}')
         if not word:
             raise ValueError(f'terms.txt:{line_number}: term must not be empty')
+        if '/' in word or '\\' in word:
+            raise ValueError(f'terms.txt:{line_number}: term must not contain path separators')
         for p in re.split(r'[ \-]+', nfc(word)):
             a = ascii_of(p)
             if a == p:
